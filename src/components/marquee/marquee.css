@@ -1,0 +1,110 @@
+.reactMarqueeBox{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    overflow: hidden;
+}
+  
+.reactMarqueeBox .marqueeLandscapeWrap{
+    position: absolute;
+    left:0;
+    top:0;
+    overflow: hidden;
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+  
+.reactMarqueeBox .marqueeLandscapeWrap .marqueeLandscapeItem{
+    float: left;
+    height: 100%;
+    white-space: nowrap;
+}
+  
+.reactMarqueeBox .marqueeLandscapeWrap .marqueeLandscapeItem .marqueeLandscapeTxt{
+    padding:0 10px;
+    white-space: nowrap;
+    display: inline-block;
+    height: 100%;
+}
+  
+.reactMarqueeBox .marqueeVerticalWrap{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.marqueeList{
+    position: relative;
+}
+.marqueeList .marqueeItem{
+    display: -webkit-flex !important;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1;
+}
+.marqueeList .marqueeItem>span{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.marqueeList .marqueeItem>span:first-child{
+    flex:0 0 50%;
+    text-align: left;
+}
+.marqueeList .marqueeItem>span:last-child{
+    flex:0 0 50%;
+    text-align: right;
+}
+.marqueeList .marqueeItem .inner{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-end;
+    flex:0 0 50%;
+    text-align: right;
+    color: #EAE80B;
+}
+.marqueeList .marqueeItem .inner{
+    border:0;
+}
+.title{
+    color: #fff;
+}
+.unit{
+    color: #fff;
+}
+dl{
+    margin:0;
+}
+.marqueeItem dd{
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+.marqueeItem .no{
+    flex: 0 0 18%;
+}
+.marqueeItem .name{
+    flex: 0 0 10%;
+}
+.marqueeItem .insurance{
+    flex: 0 0 18%;
+}
+.marqueeItem .rule{
+    flex: 0 0 14%;
+}
+.marqueeItem .desc{
+    flex: 0 0 26%;
+    text-align: left;
+}
+.marqueeItem .amount{
+    flex: 0 0 14%;
+}
+

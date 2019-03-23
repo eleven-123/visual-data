@@ -1,0 +1,59 @@
+
+.container {}
+.row{
+  margin:28px 0 0 30px !important;
+}
+.left,.right{
+  width: 28.7%;
+  padding:0 30px 0 0 !important;
+}
+.middle{
+  width: 42.6%;
+  padding:0 30px 0 0 !important;
+}
+
+.listBox{
+  padding:30px 0;
+}
+.cell{
+  position: relative;
+}
+.cell::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 1px;
+  height: 88px;
+  margin-top: -44px;
+  background:rgba(50,163,254,0.3);
+}
+.cell:last-child::after{
+  width: 0;
+}
+.itemBox{
+  padding:0 15px;
+  text-align: center;
+}
+.itemBox p{
+  margin-bottom: 16px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 24px;
+}
+.itemBox .number{
+  color: #EAE80B;
+  font-size: 16px;
+}
+.itemBox .number b{
+  font-size: 28px;
+  font-weight: 500;
+}
+.linkTab{
+  padding:0 12px 12px;
+  text-align: center;
+}
+
+.btnList{
+  padding:0 10px 15px;
+}

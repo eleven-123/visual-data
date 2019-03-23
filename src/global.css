@@ -1,0 +1,142 @@
+
+html, body, #root {
+  height: 100%;
+  font-family: SourceHanSansCN-Regular, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #09153D;
+  background-image: url(../src/assets/bg.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+/*向上滚动*/
+@keyframes rowup {
+  0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+  }
+  100% {
+      transform: translate3d(0, -250px, 0);
+      -webkit-transform: translate3d(0, -250px, 0);
+      -moz-transform: translate3d(0, -250px, 0);
+      -ms-transform: translate3d(0, -250px, 0);
+      -o-transform: translate3d(0, -250px, 0);
+  }
+}
+@keyframes rowup10 {
+  0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+  }
+  100% {
+      transform: translate3d(0, -250px, 0);
+      -webkit-transform: translate3d(0, -250px, 0);
+      -moz-transform: translate3d(0, -250px, 0);
+      -ms-transform: translate3d(0, -250px, 0);
+      -o-transform: translate3d(0, -250px, 0);
+  }
+}
+@keyframes rowup20 {
+  0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+  }
+  100% {
+      transform: translate3d(0, -500px, 0);
+      -webkit-transform: translate3d(0, -500px, 0);
+      -moz-transform: translate3d(0, -500px, 0);
+      -ms-transform: translate3d(0, -500px, 0);
+      -o-transform: translate3d(0, -500px, 0);
+}
+}
+
+.linkCell{
+  display: inline-block;
+  padding:0 7px;
+  font-size: 14px;
+  color: #4A77B6;
+}
+.linkCell:hover,.linkCell.active{
+  color: #EAE80B;
+}
+.tabBtn{
+  display: inline-block;
+  width:64px;
+  height:30px;
+  margin-left: 20px;
+  line-height: 30px;
+  font-size: 14px;
+  text-align: center;
+  border:1px solid #02d9d8;
+  border-radius:4px;
+  color: #02d9d8;
+}
+.tabBtn.active{
+  background: #02d9d8;
+  color: #fff;
+}
+
+/* progress */
+.ant-progress-inner{
+  background:rgba(25,144,255,0.3);
+  overflow: hidden;
+}
+.ant-progress-success-bg, .ant-progress-bg{
+  height: 32px !important;
+  background:#EAE80B;
+}
+.ant-progress-show-info .ant-progress-outer{
+  position: relative;
+  margin:0;
+  padding: 0;
+}
+.ant-progress-text{
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  margin-left: -1em;
+  line-height: 32px;
+}
+
+.tack{
+  position:relative;
+  cursor: pointer;
+}
+.tips{
+  display: none;
+  visibility:visible;
+  position: absolute;
+  left: 0px;
+  top: 30px;
+  padding: 10px 10px 8px;
+  line-height: 24px;
+  color: #666;
+  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+  z-index: 8;
+  background-color: rgba(255, 255, 255, 0.96);
+  box-shadow: rgb(174, 174, 174) 0px 0px 10px;
+  border-radius: 3px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  -ms-border-radius:3px;
+  -o-border-radius:3px;
+  transition: visibility 0.2s cubic-bezier(0.23, 1, 0.32, 1) 0s, left 0.4s cubic-bezier(0.23, 1, 0.32, 1) 0s, top 0.4s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+  -webkit-transition: visibility 0.2s cubic-bezier(0.23, 1, 0.32, 1) 0s, left 0.4s cubic-bezier(0.23, 1, 0.32, 1) 0s, top 0.4s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+  -moz-transition: visibility 0.2s cubic-bezier(0.23, 1, 0.32, 1) 0s, left 0.4s cubic-bezier(0.23, 1, 0.32, 1) 0s, top 0.4s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+  -ms-transition: visibility 0.2s cubic-bezier(0.23, 1, 0.32, 1) 0s, left 0.4s cubic-bezier(0.23, 1, 0.32, 1) 0s, top 0.4s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+  -o-transition: visibility 0.2s cubic-bezier(0.23, 1, 0.32, 1) 0s, left 0.4s cubic-bezier(0.23, 1, 0.32, 1) 0s, top 0.4s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+}
+.tack.active .tips{
+  display: block;
+}
+.tips .tips_name{
+  font-weight: 600;
+}

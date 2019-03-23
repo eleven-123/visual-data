@@ -1,0 +1,121 @@
+[{
+  "id": 1,
+  "hospital_coding": "sc0001",
+  "hospital_name": "中山大学附属第五医院",
+  "amount": 667890865.89999998,
+  "count": 449489
+}, {
+  "id": 2,
+  "hospital_coding": "sc0002",
+  "hospital_name": "珠海市人民医院",
+  "amount": 568390605.57000005,
+  "count": 489096
+}, {
+  "id": 3,
+  "hospital_coding": "sc0003",
+  "hospital_name": "广东省中医院珠海医院",
+  "amount": 192531831.44,
+  "count": 162901
+}, {
+  "id": 4,
+  "hospital_coding": "sc0005",
+  "hospital_name": "遵义医学院第五附属（珠海）医院",
+  "amount": 187497723.78999999,
+  "count": 234822
+}, {
+  "id": 5,
+  "hospital_coding": "sc0007",
+  "hospital_name": "珠海市中西医结合医院（珠海市第二人民医院）",
+  "amount": 147971526.53,
+  "count": 156318
+}, {
+  "id": 6,
+  "hospital_coding": "sc0004",
+  "hospital_name": "珠海市妇幼保健院",
+  "amount": 108498817.18000001,
+  "count": 114889
+}, {
+  "id": 7,
+  "hospital_coding": "sc0010",
+  "hospital_name": "珠海市斗门区侨立中医院",
+  "amount": 58970287.5,
+  "count": 100683
+}, {
+  "id": 8,
+  "hospital_coding": "sc0011",
+  "hospital_name": "珠海市平沙医院",
+  "amount": 50258839.979999997,
+  "count": 208630
+}, {
+  "id": 9,
+  "hospital_coding": "sc000d",
+  "hospital_name": "珠海市香洲区人民医院",
+  "amount": 31246589.98,
+  "count": 93530
+}, {
+  "id": 10,
+  "hospital_coding": "sc0020",
+  "hospital_name": "珠海慈爱康复医院",
+  "amount": 25932360.780000001,
+  "count": 13011
+}, {
+  "id": 11,
+  "hospital_coding": "sc0113",
+  "hospital_name": "珠海市香洲区梅华社区卫生服务中心",
+  "amount": 22477959.350000001,
+  "count": 258912
+}, {
+  "id": 12,
+  "hospital_coding": "sc0006",
+  "hospital_name": "广东省人民医院珠海医院（珠海市金湾中心医院）",
+  "amount": 22406879.530000001,
+  "count": 21949
+}, {
+  "id": 13,
+  "hospital_coding": "sc0018",
+  "hospital_name": "珠海白云康复医院",
+  "amount": 20627050.73,
+  "count": 10359
+}, {
+  "id": 14,
+  "hospital_coding": "sa0026",
+  "hospital_name": "广东省人民医院",
+  "amount": 19501997.420000002,
+  "count": 977
+}, {
+  "id": 15,
+  "hospital_coding": "sa0031",
+  "hospital_name": "中山大学附属肿瘤医院",
+  "amount": 18586720.670000002,
+  "count": 1305
+}, {
+  "id": 16,
+  "hospital_coding": "sc0017",
+  "hospital_name": "珠海高新技术产业开发区人民医院",
+  "amount": 17380882.149999999,
+  "count": 22399
+}, {
+  "id": 17,
+  "hospital_coding": "sc0032",
+  "hospital_name": "珠海市斗门区井岸镇卫生院",
+  "amount": 15042272.41,
+  "count": 169241
+}, {
+  "id": 18,
+  "hospital_coding": "sc01a3",
+  "hospital_name": "珠海市凤凰园发展有限公司",
+  "amount": 14003686.76,
+  "count": 2271
+}, {
+  "id": 19,
+  "hospital_coding": "sa000b",
+  "hospital_name": "中山大学孙逸仙纪念医院(中山大学附属第二医院）",
+  "amount": 12585941.73,
+  "count": 567
+}, {
+  "id": 20,
+  "hospital_coding": "sc012d",
+  "hospital_name": "珠海市香洲区前山社区卫生服务中心",
+  "amount": 12555288.050000001,
+  "count": 175859
+}]

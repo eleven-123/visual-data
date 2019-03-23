@@ -1,0 +1,131 @@
+
+.section{
+  margin-bottom:30px;
+  position: relative;
+}
+.irregular{
+  border: 1px solid #1A348B;
+}
+.irregular::before{
+  content: '';
+  position: absolute;
+  left: -3px;
+  bottom: 60px;
+  background: url(../assets/left_bg.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 5px;
+  height: 55px;
+}
+.irregular .title{
+  position: absolute;
+  top: -1px;
+  display: inline-block;
+  padding:0 25px 0 20px;
+  margin: 0;
+  line-height: 20px;
+  font-size: 16px;
+  color: #02d9d8;
+  background: #09153D;
+}
+.irregular .title::before,.irregular .title::after{
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height:20px;
+  background: #09153D;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+.irregular .title::before{ 
+  top: -10px;
+  left: -11px;
+  border-right: 1px solid #1A348B;
+  
+}
+.irregular .title::after{  
+  right: -11px;
+  top: 4px;
+  border-left: 1px solid #1A348B;
+  
+}
+
+.irregular .inner{
+  overflow: hidden;
+  position: relative;
+}
+.irregular .inner::before,.irregular .inner::after{
+  content: '';
+  position: absolute;
+  border: 7px solid;
+}
+.irregular .inner::before{ 
+  right: 0;
+  top: 0;  
+  border-color: #1D3A99 #1D3A99 transparent transparent;
+}
+.irregular .inner::after{
+  left: 0;
+  bottom: 0;
+  border-color: transparent transparent #1D3A99 #1D3A99;
+}
+
+.normal{
+  border:1px solid #1D3A99;
+  position: relative;
+}
+.normal .bg{
+  position: absolute;
+  width:15px;
+  height:15px;
+}
+.normal .bgLeftTop{
+  left:-1px;
+  top: -1px;
+}
+.normal .bgRightTop{
+  right:-1px;
+  top: -1px;    
+}
+.normal .bgLeftBottom{
+  left:-1px;
+  bottom: -1px;
+}
+.normal .bgRightBottom{
+  right:-1px;
+  bottom:-1px;
+}
+.normal .bg::before,.normal .bg::after{
+  content:'';
+  position: absolute;
+  background:rgba(29,58,153,1);    
+}
+.normal .bgLeftTop::before,.normal .bgLeftBottom::before,.normal .bgRightTop::after,.normal .bgRightBottom::after{
+  width:3px;
+  height: 15px;
+}
+.normal .bgLeftTop::before,.normal .bgLeftBottom::before{
+  left:-1px
+}
+.normal .bgRightTop::after,.normal .bgRightBottom::after{
+  right: -1px;
+}
+.normal .bgLeftTop::after,.normal .bgLeftBottom::after,.normal .bgRightTop::before,.normal .bgRightBottom::before{
+  width:15px;
+  height: 3px;
+}
+.normal .bgLeftTop::after,.normal .bgRightTop::before{
+  top:-1px;
+}
+.normal .bgLeftBottom::after,.normal .bgRightBottom::before{
+  bottom: -1px;
+}
+.normal .bgLeftTop::after,.normal .bgLeftBottom::after{
+  left:-1px;
+}
+.normal .bgRightTop::before,.normal .bgRightBottom::before{
+  right:-1px;
+}

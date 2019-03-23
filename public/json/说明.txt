@@ -1,0 +1,32 @@
+excel1
+# 全市报销top20 all_city_top20.json
+
+# 总金额-总人次-总报销 total.json
+total_middle_amount 中间总金额
+total_reimbursement_amount 报销总金额
+total_hospitalization_count 住院人次
+
+# 三目录比例 three_catalog.json
+
+# 各等级医疗机构基金支付情况 fund_pay.json
+
+# 2018年2017年基金支出各月份对比情况 2017-2018-fund_compare.json
+
+# 页面2 统计数据 page2_total.json
+total_amount 总金额
+total_fund_amount 总基金支付
+total_person_count 总人次
+audit_bills_count 审核单据
+
+# 页面2 审核异常明细展示 page2_detail.json
+
+
+
+excel 2
+# 页面1左-各区1-12月报销总额 page1_left.json
+
+# 2018年与2017年基金支出各月份对比情况 2017-2018-fund_compare-2.json
+
+# 珠海2018年各区基金支出与2017年对比情况 zhuhai-2017-2018-fund_compare.json
+
+# 珠海地图 zhuhai_map.json

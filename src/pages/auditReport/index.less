@@ -1,0 +1,98 @@
+.container {
+}
+.row{
+    margin:28px 0 0 30px !important;
+}
+.col{
+    padding:0 30px 0 0 !important;
+}
+.listBox{
+    padding:30px 0;
+}
+.cell{
+    position: relative;
+}
+.cell::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 1px;
+    height: 88px;
+    margin-top: -44px;
+    background:rgba(50,163,254,0.3);
+}
+.cell:last-child::after{
+    width: 0;
+}
+.itemBox{
+    padding:0 15px;
+    text-align: center;
+}
+.itemBox p{
+    margin-bottom: 16px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 24px;
+}
+.itemBox .number{
+    color: #EAE80B;
+    font-size: 16px;
+}
+.itemBox .number b{
+    font-size: 28px;
+    font-weight: 500;
+}
+.lineBox{
+    padding: 30px 30px 0;
+    
+    .lineCell{
+        margin-bottom: 30px;
+    }
+    .name{
+        margin:0;
+        font-size:20px;
+        color: #02d9d8;
+        line-height: 32px;
+    }
+    .value{
+        font-size: 26px;
+        color: #EAE80B;
+        margin:0;
+        line-height: 32px;
+    }
+    .subname{
+        margin:0;
+        font-size:20px;
+        color: #02d9d8;
+        line-height: 32px;
+    }
+    .unit{
+        font-size: 18px;
+        margin-left: 5px;
+        line-height: 32px;
+        vertical-align: top;
+    }
+}
+.itemWrap{
+    position: relative;
+}
+.itemWrap::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 1px;
+    height: 240px;
+    margin-top: -120px;
+    background:rgba(50,163,254,0.3);
+}
+.itemWrap:last-child::after{
+    width: 0;
+}
+.celTtitle{
+    margin:30px 10px 5px;
+    text-align: center;
+    font-size: 16px;
+    color: #98C2F3;
+}

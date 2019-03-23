@@ -1,0 +1,20 @@
+[
+  {
+    "area": "香洲区",
+    "amount": "2577867313.76",
+    "count": 3092979,
+    "total_hospital": 106
+  },
+  {
+    "area": "斗门区",
+    "amount": "457655741.02",
+    "count": 1107968,
+    "total_hospital": 18
+  },
+  {
+    "area": "金湾区",
+    "amount": "147696163.78",
+    "count": 569043,
+    "total_hospital": 31
+  }
+]

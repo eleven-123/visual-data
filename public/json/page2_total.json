@@ -1,0 +1,157 @@
+{
+  "total": {
+    "total_amount": 2119368657.69,
+    "total_fund_amount": 1589695207.17,
+    "total_person_count": 164747,
+    "audit_bills_count": 50083823
+  },
+  "abnormal": {
+    "system_audit_amount": {
+      "amount": 21842177.85,
+      "proportion": "1.37%"
+    },
+    "system_audit_count": {
+      "count": 24301,
+      "proportion": "14.75%"
+    },
+    "human_audit_amount": {
+      "amount": 5017108.86,
+      "proportion": "23%"
+    },
+    "human_audit_count": {
+      "count": 4811,
+      "proportion": "19.80%"
+    }
+  },
+  "by_month": [
+    {
+      "name": "2018-01",
+      "amount": "296677.51",
+      "count": 509
+    },
+    {
+      "name": "2018-02",
+      "amount": "336556.43",
+      "count": 319
+    },
+    {
+      "name": "2018-03",
+      "amount": "350941.02",
+      "count": 419
+    },
+    {
+      "name": "2018-04",
+      "amount": "470409.03",
+      "count": 407
+    },
+    {
+      "name": "2018-05",
+      "amount": "468258.23",
+      "count": 410
+    },
+    {
+      "name": "2018-06",
+      "amount": "350142.06",
+      "count": 379
+    },
+    {
+      "name": "2018-07",
+      "amount": "327391.28",
+      "count": 562
+    },
+    {
+      "name": "2018-08",
+      "amount": "448126.78",
+      "count": 547
+    },
+    {
+      "name": "2018-09",
+      "amount": "421311.4",
+      "count": 392
+    },
+    {
+      "name": "2018-10",
+      "amount": "532831.54",
+      "count": 297
+    },
+    {
+      "name": "2018-11",
+      "amount": "486900.99",
+      "count": 308
+    },
+    {
+      "name": "2018-12",
+      "amount": "527562.59",
+      "count": 262
+    }
+  ],
+  "area": [
+    {
+      "name": "斗门区",
+      "amount": "265857.26",
+      "count": 295
+    },
+    {
+      "name": "香洲区",
+      "amount": "4581057.18",
+      "count": 3661
+    },
+    {
+      "name": "金湾区",
+      "amount": "170194.42",
+      "count": 291
+    }
+  ],
+  "rule": [
+    {
+      "name": "降低标准收入院（检验检查值占比）",
+      "amount": 2316613.1899999999,
+      "count": 594
+    },
+    {
+      "name": "降低标准收入院（药费占比）",
+      "amount": 1409365.95,
+      "count": 268
+    },
+    {
+      "name": "限工伤保险",
+      "amount": 538704.95999999996,
+      "count": 497
+    },
+    {
+      "name": "超时间收费",
+      "amount": 217035.76999999999,
+      "count": 823
+    },
+    {
+      "name": "分解住院规则",
+      "amount": 207269.78,
+      "count": 100
+    },
+    {
+      "name": "诊疗项目超限次（单次住院）",
+      "amount": 124114.36,
+      "count": 1296
+    },
+    {
+      "name": "限医疗机构（药品）",
+      "amount": 114597.62,
+      "count": 377
+    },
+    {
+      "name": "中药饮片单味或复方均拒付",
+      "amount": 74628.550000000003,
+      "count": 687
+    },
+    {
+      "name": "限儿童(药品)",
+      "amount": 13158.370000000001,
+      "count": 128
+    },
+    {
+      "name": "诊疗项目性别限制",
+      "amount": 1620.3099999999999,
+      "count": 41
+    }
+  ]
+}
